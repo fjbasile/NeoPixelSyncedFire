@@ -6,7 +6,7 @@ int green;
 
 const int DELAY = 10;
 const int lowDel = 5;
-const int highDel = 250;
+const int highDel = 400;
 
 const int RANDLOW = 30;
 const int RANDHI = 256;
@@ -28,4 +28,3 @@ void loop()
     }
     delay(random(lowDel,highDel)); 
 }
- 
